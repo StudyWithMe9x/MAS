@@ -3,4 +3,4 @@ $Path = $env:TEMP; $Installer = "active.zip"; $ProgressPreference = 'SilentlyCon
 Expand-Archive $Path\active.zip -DestinationPath $Path\active
 
 
-start $Path\active\Microsoft-Activation-Scripts-master\MAS\All-In-One-Version-KL\MAS_AIO.cmd
+start $Path\active\Microsoft-Activation-Scripts-master\MAS\All-In-One-Version-KL\
