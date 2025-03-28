@@ -2,4 +2,4 @@ $Path = "$($env:USERPROFILE)\Downloads"; $Installer = "active.zip"; $ProgressPre
 Expand-Archive $Path\active.zip -DestinationPath $Path\active
 
 
-start $Path\active\Microsoft-Activation-Scripts-master\MAS\All-In-One-Version-KL\
+start $Path\active\Microsoft-Activation-Scripts-master\MAS\All-In-One-Version-KL\MAS_AIO.cmd
