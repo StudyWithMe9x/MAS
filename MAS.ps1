@@ -1,5 +1,4 @@
-$Path = $HOME\Downloads; $Installer = "active.zip"; $ProgressPreference = 'SilentlyContinue'; Invoke-WebRequest "https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip" -OutFile $Path\$Installer; 
-
+$Path = "$($env:USERPROFILE)\Downloads"; $Installer = "active.zip"; $ProgressPreference = 'SilentlyContinue'; Invoke-WebRequest "https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip" -OutFile $Path\$Installer;
 Expand-Archive $Path\active.zip -DestinationPath $Path\active
 
 
